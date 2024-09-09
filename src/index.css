@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* This class is valid for whole app  */
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* This is the container of dropdown */
+.dropdown-container {
+  border: 2px solid black;
+  height: 250px;
+  width: 250px;
+  background-color: rgb(164, 243, 243);
+  box-shadow: 1px 1px 8px 5px rgb(59, 59, 59);
+  position: relative;
+  text-align: center;
+}
+
+/*  below All code for drop down list */
+.select-value {
+  height: 30px;
+  width: 150px;
+  border-radius: 8px;
+  font-size: larger;
+  position: absolute;
+  top: 150px;
+  left: 45px;
+}
+.dropdown {
+  background-color: aqua;
+  border: 1px solid black;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+.dropbtn {
+  position: relative;
+  width: 155px;
+  height: 35px;
+  font-size: larger;
+}
+.dropdown-content {
+  border: 1px solid rgb(197, 194, 194);
+  display: flex;
+  flex-direction: column;
+  width: 155px;
+  position: relative;
+  left: 128px;
+}
+
+.link-array {
+  font-size: larger;
+  background-color: aliceblue;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+}
